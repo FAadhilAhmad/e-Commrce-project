@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+/* navbaar styling */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-mid{
+    display: flex;
+    gap: 20px;
+}
+.nav-side{
+    display: flex;
+    gap: 20px;
+}
+.nav-mid a{
+    padding: 30px;
+}
+.nav-side a{
+    padding: 20px;
+}
