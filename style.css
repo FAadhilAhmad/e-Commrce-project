@@ -7,16 +7,35 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    padding: 20px;
+    /* padding: 20px; */
 }
 /* navbaar styling */
 .navbar{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(136, 136, 248);
+    padding: 10px;
+    margin: auto;
+}
+.logo{
+    text-align: center;
+    font-size: 20px;
+    color: #f4f4f4;
+
 }
 .nav-mid{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+}
+.nav-mid  li {
+    list-style: none;
+}
+.nav-mid li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #f4f4f4;
 }
 .nav-side{
     display: flex;
@@ -27,4 +46,13 @@ body{
 }
 .nav-side a{
     padding: 20px;
+}
+.nav-side li{
+    list-style: none;
+}
+/* end styling navbar */
+
+/* product slider styling */
+.container-content{
+    display: flex;
 }
